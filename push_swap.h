@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 09:26:06 by eberger           #+#    #+#             */
-/*   Updated: 2023/02/02 12:10:11 by eberger          ###   ########.fr       */
+/*   Updated: 2023/06/07 09:11:21 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ int		ft_isdigit(int chr);
 size_t	ft_strlen(const char *str);
 size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 char	*ft_strchr(const char *s, int c);
-int		ft_atoi(const char *str);
+long	ft_atoi(const char *str);
 char	*ft_itoa(int n);
 char	**ft_split(char const *s, char c);
 void	ft_putendl_fd(char *s, int fd);

@@ -6,14 +6,14 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 16:47:52 by eberger           #+#    #+#             */
-/*   Updated: 2022/11/05 14:04:19 by eberger          ###   ########.fr       */
+/*   Updated: 2023/06/07 09:10:04 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_atoi(const char *str)
+long	ft_atoi(const char *str)
 {
-	int		neg;
-	long	value;
+	int			neg;
+	long long	value;
 
 	neg = 0;
 	value = 0;
@@ -32,5 +32,5 @@ int	ft_atoi(const char *str)
 	}
 	if (neg)
 		value = -value;
-	return (value);
+	return (value);	
 }
