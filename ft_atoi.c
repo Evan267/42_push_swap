@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 16:47:52 by eberger           #+#    #+#             */
-/*   Updated: 2023/06/07 09:10:04 by eberger          ###   ########.fr       */
+/*   Updated: 2023/06/22 09:12:56 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,5 @@ long	ft_atoi(const char *str)
 	}
 	if (neg)
 		value = -value;
-	return (value);	
+	return (value);
 }

@@ -6,7 +6,7 @@
 /*   By: eberger <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/01 10:55:08 by eberger           #+#    #+#             */
-/*   Updated: 2023/06/21 08:46:49 by eberger          ###   ########.fr       */
+/*   Updated: 2023/06/22 08:51:14 by eberger          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int	main(int argc, char *argv[])
 		return (0);
 	list[0] = ft_list(tab, &tab_int);
 	if (!check_double(&tab_int, ft_tablen(tab)))
-		return (free_list(&list[0], &tab_int), 0);
+		return (free_split(tab, test), free_list(&list[0], &tab_int), 0);
 	list[1] = NULL;
 	free_split(tab, test);
 	if (not_sort(list[0]))
